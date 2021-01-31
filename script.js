@@ -57,7 +57,7 @@ document.querySelector('.check').addEventListener('click',function(){
 })
 */
 
-let secretNumber =Math.trunc( Math.random()*10)+1;
+let secretNumber =Math.trunc( Math.random()*100)+1;
 let score = 20;
 let highScore = 0;
 
@@ -110,7 +110,7 @@ document.querySelector('.check').addEventListener('click',function(){
 
 document.querySelector('.again').addEventListener('click',function(){
 
-  secretNumber =Math.trunc( Math.random()*10)+1;
+  secretNumber =Math.trunc( Math.random()*100)+1;
   score = 20;
   document.querySelector('.score').textContent = score;
 
